@@ -4,19 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/styles">
+    
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
     <title>Cv Bellido Julieta</title>
 </head>
+
+
 <body>
     <header>
-        <img src="./assets/img/perritcafe.jpeg" width="300px" alt="foto-perfil" class="foto-perfil">
+        <a href="inicio" class="logo-inicio">
+            <img src="./assets/img/logo.png" alt="logo de cv" width="100px">
+        </a>
         <h1> Paula Julieta Bellido</h1>
+
+        <nav>
+            <ul>
+                <li class="menu-inicio">
+                    <a href="inicio">Inicio</a>
+                </li>
+                <li class="menu-contacto">
+                    <a href="contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
      
     </header>
+
+
     <main>
+        <section class="inicio">
+            <figure>
+                <img src="./assets/img/perritcafe.jpeg" width="300px" alt="foto-perfil" class="foto-perfil">
+            </figure>
+
+        </section>
+
+
         <section class="about-section">
-            <h1> Sobre mi</h1>
+            <h2> Sobre mi</h2>
             <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam earum amet accusantium odio? Nulla, esse. Architecto eligendi cumque natus assumenda numquam ab soluta voluptatibus earum! Temporibus doloremque iusto eum placeat.</p>
+
+            <a href="CvBellidoPaulaJulieta.pdf" aria-label="Descargar cv"> Descarga mi cv</a>
 
         </section>
 
@@ -38,31 +67,59 @@
                     <li>Lorem, ipsum dolor.</li>
                 </ul>
 
-            </section>
-
         </section>
 
-        <section class="contacto-section">
-            <section class="datos-section">
-                <h2>Contacto</h2>
-                <ul class="datos-list">
-                    <li> mail: bellidopaulajulieta@gmail.com</li>
-                    <li> linkdin Bellido Paula</li>
-                    <li>github bellidopau</li>
-                </ul>
-
-            </section>
-            <section class="skill-section">
+       
+        <section class="skill-section">
                 <h2>Habilidades</h2>
                 <ul class="skill-list">
-                    <li> idiomas: ingles, español </li>
+                    <li>idiomas: ingles, español </li>
                     <li>programacion: html, css, js, python</li>
                 </ul>
 
-            </section>
+        </section>
+
+
+        <!--conctacto-->
+        <section class="contacto">
+            <article class="hablemos">
+                <h2>¡Hablemos!</h2>
+                <p>
+                    Para ponerte en contacto conmigo te dejo links a mis redes
+                </p>
+
+            </article>
+
+            <ul>
+                <li>
+                    <a href="mailto:julietabellidoedu@gmail.com" target="_blank" aria-label="Enviame un mail">
+                        <img src="./assets/img/mail.png"
+                        class="icono-contacto">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/bellidopau" target="_blank" aria-label="Ir al perfil de girthub">
+                        <img src="./assets/img/github.png"
+                        class="icono-contacto">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/julieta-bellido-73589a1b9" target="_blank" aria-label="Ir al perfil de linkedin">
+                        <img src="./assets/img/linkedin.png"
+                        class="icono-contacto">
+                    </a>
+                </li>
+
+
+            </ul>
 
         </section>
 
+
     </main>
+
+    <footer> <small> Muchas gracias por visitarme </small></footer>
 </body>
 </html>

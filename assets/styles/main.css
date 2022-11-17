@@ -1,0 +1,106 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: lightgrey;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+    height: 90px;
+    background-color:  #b88bae;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: #fbfbfb;
+    color: aliceblue;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo-inicio{
+    width: 100px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+}
+
+p{
+    margin: 16px 0;
+}
+
+nav{
+    display: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 120px;
+    min-width: 100vh;
+}
+
+article.hablemos{
+    background-color: rgba(175, 89, 158, 0.3);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.icono-contacto{
+    width: 80px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+section.contacto p{
+    text-align: center;
+    max-width: 600px;
+}
+ul{
+    list-style: none;
+}
+
+
+ul.icono-contacto li{
+    margin: 16px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+footer {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af599e;
+    color: #fbfbfb;
+}
